@@ -307,7 +307,7 @@ where ``#ifdef`` would never match, and vice versa.
     // Evaluates to `false`. This portion won't be included in the final shader.
     #endif
 
-    #ifndef USE_COLOR
+    #ifdef USE_COLOR
     // Evaluates to `true`. This portion will be included in the final shader.
     #endif
 
